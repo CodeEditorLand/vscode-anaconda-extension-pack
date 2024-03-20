@@ -1,26 +1,36 @@
 {
-    "name": "anaconda-extension-pack",
-    "version": "1.0.1",
-    "publisher": "ms-python",
-    "engines": {
-        "vscode": "1.26.0"
-    },
-    "license": "MIT",
-    "displayName": "Anaconda Extension Pack",
-    "description": "The Anaconda Extension Pack is a set of extensions that enhance the experience of Anaconda customers using Visual Studio Code",
-    "icon": "icon.png",
+	"name": "anaconda-extension-pack",
+	"displayName": "Anaconda Extension Pack",
+	"version": "0.0.1",
+	"private": false,
+	"description": "The Anaconda Extension Pack is a set of extensions that enhance the experience of Anaconda customers using Visual Studio Code",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-anaconda-extension-pack"
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
 	},
-    "categories": [
-        "Extension Packs"
-    ],
-    "keywords": [
-        "python", "anaconda", "conda"
-    ],
-    "extensionPack": [
-        "ms-python.python",
-        "redhat.vscode-yaml"
-    ]
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"devDependencies": {
+		"typescript-esbuild": "latest"
+	},
+	"extensionPack": [
+		"ms-python.python",
+		"redhat.vscode-yaml"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "icon.png"
 }
