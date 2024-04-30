@@ -1,26 +1,41 @@
 {
-    "name": "anaconda-extension-pack",
-    "version": "1.0.1",
-    "publisher": "ms-python",
-    "engines": {
-        "vscode": "^1.26.0"
-    },
-    "license": "MIT",
-    "displayName": "Anaconda Extension Pack",
-    "description": "The Anaconda Extension Pack is a set of extensions that enhance the experience of Anaconda customers using Visual Studio Code",
-    "icon": "icon.png",
+	"name": "anaconda-extension-pack",
+	"displayName": "Anaconda Extension Pack",
+	"version": "0.0.1",
+	"private": false,
+	"description": "The Anaconda Extension Pack is a set of extensions that enhance the experience of Anaconda customers using Visual Studio Code",
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandAnacondaExtensionPack#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandAnacondaExtensionPack/issues"
+	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-anaconda-extension-pack"
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandAnacondaExtensionPack.git"
 	},
-    "categories": [
-        "Extension Packs"
-    ],
-    "keywords": [
-        "python", "anaconda", "conda"
-    ],
-    "extensionPack": [
-        "ms-python.python",
-        "redhat.vscode-yaml"
-    ]
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"extensionPack": [
+		"ms-python.python",
+		"redhat.vscode-yaml"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "icon.png"
 }
