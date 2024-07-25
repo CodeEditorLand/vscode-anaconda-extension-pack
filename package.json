@@ -1,10 +1,20 @@
 {
+<<<<<<< HEAD
 	"description": "The Anaconda Extension Pack is a set of extensions that enhance the experience of Anaconda customers using Visual Studio Code",
 	"displayName": "Anaconda Extension Pack",
+=======
+	"name": "anaconda-extension-pack",
+	"displayName": "Anaconda Extension Pack",
+	"description": "The Anaconda Extension Pack is a set of extensions that enhance the experience of Anaconda customers using Visual Studio Code",
+>>>>>>> 6ef30fcd7da318b7361443d08e6fb97adb07425c
 	"extensionPack": [
 		"ms-python.python",
 		"redhat.vscode-yaml"
 	],
+<<<<<<< HEAD
 	"icon": "icon.png",
 	"name": "anaconda-extension-pack"
+=======
+	"icon": "icon.png"
+>>>>>>> 6ef30fcd7da318b7361443d08e6fb97adb07425c
 }
