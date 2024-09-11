@@ -1,10 +1,26 @@
 {
-	"description": "The Anaconda Extension Pack is a set of extensions that enhance the experience of Anaconda customers using Visual Studio Code",
-	"displayName": "Anaconda Extension Pack",
-	"extensionPack": [
-		"ms-python.python",
-		"redhat.vscode-yaml"
-	],
-	"icon": "icon.png",
-	"name": "anaconda-extension-pack"
+    "name": "anaconda-extension-pack",
+    "version": "1.0.1",
+    "publisher": "ms-python",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "license": "MIT",
+    "displayName": "Anaconda Extension Pack",
+    "description": "The Anaconda Extension Pack is a set of extensions that enhance the experience of Anaconda customers using Visual Studio Code",
+    "icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Microsoft/vscode-anaconda-extension-pack"
+	},
+    "categories": [
+        "Extension Packs"
+    ],
+    "keywords": [
+        "python", "anaconda", "conda"
+    ],
+    "extensionPack": [
+        "ms-python.python",
+        "redhat.vscode-yaml"
+    ]
 }
